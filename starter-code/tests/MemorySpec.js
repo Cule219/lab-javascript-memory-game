@@ -41,7 +41,7 @@ describe('MemoryGame constructor', function () {
 
 describe('shuffleCards method', function () {
   beforeEach(function () {
-    var cardsArray = [
+    const cardsArray = [
       { name: 'aquaman',         img: 'aquaman.jpg' },
       { name: 'batman',          img: 'batman.jpg' },
       { name: 'captain america', img: 'captain-america.jpg' },
@@ -58,7 +58,7 @@ describe('shuffleCards method', function () {
       { name: 'green arrow',     img: 'green-arrow.jpg' },
       { name: 'green lantern',   img: 'green-lantern.jpg' },
       { name: 'ironman',         img: 'ironman.jpg' },
-    ]
+    ] 
     memoryGame = new MemoryGame(cardsArray);
   });
 
